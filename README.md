@@ -46,8 +46,8 @@ docker-compose --version
 Si tu código está en un repositorio Git, clónalo en el VPS:
 
 ```sh
-git clone https://github.com/povnurb/apiDataBaseIoTmx.git
-cd apiDataBaseIoTmx
+git clone https://github.com/povnurb/apidatabaseiotmx.git
+cd apidatabaseiotmx
 ```
 
 Si no usas Git, puedes subir los archivos manualmente usando `scp`:
