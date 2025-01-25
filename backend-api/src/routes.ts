@@ -10,6 +10,12 @@ export interface RegisterRequest extends Request {
 }
 
 const router = Router();
+router.get('/', async (req: Request, res: Response) => {
+ 
+    res.status(200).json({ message: 'Ok Servidor' });
+ 
+});
+
 
 // Ruta para obtener todos los usuarios
 router.get('/users', async (req: Request, res: Response) => {
